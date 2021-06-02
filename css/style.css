@@ -86,11 +86,100 @@ header  section p a,header  section div a
 }
 
 
+/************************* milieu  ************************/
 
+.contenu .milieu,.droit
+{
+	
+	display: inline-block;
+	
+	
+}
+.contenu .milieu
+{
+	
+	width: 55%;
+	float: left;
+	margin-left: 6%
+	
+}
+.contenu .droit
+{
+	
+	background-color: #1C2331;
+	width: 22%;
+	float: right;
+	margin-right: 9%;
+	
+	
+}
 
+.contenu .milieu .milieu1,.milieu3,.milieu2
+{
+	background-color: #e0f7fa;
+	padding-left: 40px;
+	
+}
 
+.contenu .milieu div p,h2
+{
+	margin-bottom: 0px;
+}
+.contenu .milieu  h1
+{
+	margin:15px 0px;
+	font-size:20px;
+}
+.contenu .milieu div h2
+{
+	padding-top: 35px;
+	margin:6px 0px;
+	font-size:20px;
+}
 
-
+.contenu .droit h2
+{
+	padding: 6px 15px;
+	margin: 4px 0px
+}
+.contenu .droit
+{
+  margin-top: 25px;
+	color:white;
+}
+.contenu .droit input,label,.bouton
+{
+  margin-left: 15px
+}
+.contenu .droit input
+{
+  width: 75%;
+	height:25px;
+	margin-top:1px;
+	margin-bottom: 3px;
+}
+.contenu .droit .bouton
+{
+  margin-bottom: 3px;
+	height: 30px;
+	background-color: red;
+	color: white;
+}
+footer
+{
+	clear: both;
+	background-color: red;
+	color: white;
+	text-align: center;
+	padding-bottom: 30px;
+	
+	
+}
+footer p
+{
+	margin: 0;
+	padding-top: 30px;
+}
 
 
 
