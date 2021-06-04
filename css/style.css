@@ -25,10 +25,11 @@ header section p,.les_menu,.suscribe,.barderecherche
 {
 		display: inline-block;
 }
-header section .les_menu,.barderecherche
+header section .les_menu
 {
 	margin-left:63%;
 }
+
 header section p
 {
 	margin-left:6%;
@@ -48,10 +49,6 @@ header section .les_menu
 	font-size: 14px;
 }
 
-header section .barderecherche
-{
-	margin-left:51%;
-}
 
 header section
 {
@@ -122,17 +119,21 @@ header  section p a,header  section div a,.contenu .bloc-2  .Suscribe a
 {
 	background-color: #1C2331; 
 	padding-top: px;
-  height: px;
+ 
 	
 }
 .contenu .bloc-2  .Suscribe
 {
-	margin-left: 90px;
-	
+	margin-left: 100px;
+	margin-right: ;
+	}
+.contenu  .bloc-2 .barderecherche
+{
+	margin-left: 45%;
 }
 .contenu .bloc-2  .Suscribe,.contenu  .bloc-2 .barderecherche
 {
-	padding-top:20px;
+	padding-top:30px;
 	padding-bottom:20px;
 	
 }
@@ -147,7 +148,7 @@ header  section p a,header  section div a,.contenu .bloc-2  .Suscribe a
   /************** images  *************/
 .contenu  .element  img
 {
-	height: 150px
+	height: 150px;
 }
 /************************* footer  ************************/
 

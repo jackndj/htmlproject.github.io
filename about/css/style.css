@@ -21,10 +21,11 @@ header section p,.les_menu,.suscribe,.barderecherche
 {
 		display: inline-block;
 }
-header section .les_menu,.barderecherche
+header section .les_menu
 {
 	margin-left:63%;
 }
+
 header section p,.suscribe
 {
 	margin-left:6%;
