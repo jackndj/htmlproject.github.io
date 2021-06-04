@@ -1,15 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
 
-/************************* body  ************************/
-
 body
 {
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
 	
 }
-/************************* header  ************************/
-
 header
 {
 	width: 100%;
@@ -29,11 +25,10 @@ header section .les_menu,.barderecherche
 {
 	margin-left:63%;
 }
-header section p
+header section p,.suscribe
 {
 	margin-left:6%;
 }
-
 header section .les_menu .menu
 {
 	display: inline-block;
@@ -62,6 +57,10 @@ header #section1
 {
 	border-bottom: 4px solid #00c851;
 }
+header #section2
+{
+	padding: 14px 0
+}
 .taille
 {
 	height: 2em;
@@ -80,7 +79,7 @@ header  #section1 p span
 	color: red;
 }
 
-header  section p a,header  section div a,.contenu .bloc-2  .Suscribe a
+header  section p a,header  section div a
 {
 	text-decoration: none;
 	color: white;	
@@ -88,69 +87,88 @@ header  section p a,header  section div a,.contenu .bloc-2  .Suscribe a
 
 
 /************************* milieu  ************************/
-   
-   /********************* bloc1  ********************/
 
-.contenu  .bloc-1 div
+.contenu .milieu,.droit
 {
-	position: relative;
-	bottom:300px;
-	margin:0px 300px;
+	
+	display: inline-block;
+	
+	
+}
+.contenu .milieu
+{
+	
+	width: 55%;
+	float: left;
+	margin-left: 6%
+	
+}
+.contenu .droit
+{
+	
+	background-color: #1C2331;
+	width: 22%;
+	float: right;
+	margin-right: 9%;
+	
+	
+}
+
+.contenu .milieu .milieu1,.milieu3,.milieu2
+{
+	background-color: #e0f7fa;
+	padding-left: 40px;
+	
+}
+
+.contenu .milieu div p,h2
+{
+	margin-bottom: 0px;
+}
+.contenu .milieu  h1
+{
+	margin:15px 0px;
+	font-size:20px;
+}
+.contenu .milieu 
+{
+	margin-bottom: 50px;
+}
+.contenu .milieu div h2
+{
+	padding-top: 35px;
+	margin:6px 0px;
+	font-size:20px;
+}
+
+.contenu .droit h2
+{
+	padding: 6px 15px;
+	margin: 4px 0px
+}
+.contenu .droit
+{
+  margin-top: 25px;
+	color:white;
+}
+.contenu .droit input,label,.bouton
+{
+  margin-left: 15px
+}
+.contenu .droit input
+{
+  width: 75%;
+	height:25px;
+	margin-top:1px;
+	margin-bottom: 3px;
+}
+.contenu .droit .bouton
+{
+  margin-bottom: 3px;
+	height: 30px;
+	background-color: red;
 	color: white;
 }
-
-
-.contenu  .bloc-1
-{
-	
-	height: 400px;
-}
-.contenu  .bloc-1 img
-{
-	height: 400px;
-	width: 100%;
-}
-
-
-   /********************* bloc2  ********************/
-.contenu  .bloc-2 div
-{
-	display: inline-block;
-}
-
-.contenu .bloc-2  
-{
-	background-color: #1C2331; 
-	padding-top: px;
-  height: px;
-	
-}
-.contenu .bloc-2  .Suscribe
-{
-	margin-left: 90px;
-	
-}
-.contenu .bloc-2  .Suscribe,.contenu  .bloc-2 .barderecherche
-{
-	padding-top:20px;
-	padding-bottom:20px;
-	
-}
-   /********************* bloc3  ********************/
-
-
-.contenu  .bloc-3 .element
-{
-	float: left;
-	margin-left: 220px;
-}
-  /************** images  *************/
-.contenu  .element  img
-{
-	height: 150px
-}
-/************************* footer  ************************/
-
 footer
 {
 	clear: both;
